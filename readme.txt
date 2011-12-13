@@ -10,11 +10,13 @@ A Toolkit for facilitating Odyssey functionality in Wordpress.
 
 == Description ==
 
-This is a toolkit for integrating Odyssey and Wordpress. 
+This is a toolkit for integrating Odyssey and Wordpress. As of version 1.0, the plug-in provides a newswellmod feed that can be used on Odyssey pages to display blog posts filtered by included or excluded categories.
+
+Additional functionality will be added going forward.
 
 A few notes:
 
-*   If you're not familiar with Odyssey, this plug-in is of no use to you
+*   If you're not familiar with Odyssey, this plug-in is of no use to you.
 
 == Installation ==
 
@@ -28,6 +30,8 @@ A few notes:
 If you have to ask, this plug-in is not for you.
 
 = I've got it installed. Now what? =
+
+The plug-in currently returns an html fragment for inclusion on an Odyssey page.
 
 You can call the 10 most recent posts to a given blog formatted for the Odyssey newswell module by passing newswellmod as the feed type, i.e.
 
