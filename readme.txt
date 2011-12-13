@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: wmfox3 (this should be a list of wordpress.org userid's)
 Donate link: http://www.greenvilleonline.com/
-Tags: odyssey, feed
+Tags: odyssey, saxotech, feed, getcontent
 Requires at least: 3.2.1
 Tested up to: 3.2
 Stable tag: 1.0
@@ -18,10 +18,6 @@ A few notes:
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
-
-e.g.
-
 1. Upload the `odyssey' folder to your `/wp-content/plugins/` directory
 1. Activate the plugin through the 'Plugins' menu in WordPress
 
@@ -31,11 +27,23 @@ e.g.
 
 If you have to ask, this plug-in is not for you.
 
+= I've got it installed. Now what? =
+
+You can call the 10 most recent posts to a given blog formatted for the Odyssey newswell module by passing newswellmod as the feed type, i.e.
+
+http://data.greenvilleonline.com/blogs/the-carolina-blog/?feed=newswellmod
+
+You can specify a category using the slug of the category like this:
+
+http://data.greenvilleonline.com/blogs/politics/?feed=newswellmod&categoryslug=barack-obama
+
+You can pass an array of categories to include and/or exclude like this:
+
+http://data.greenvilleonline.com/blogs/politics/?feed=newswellmod&category=35,30&excategory=5
+
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the directory of the stable readme.txt, so in this case, `/tags/4.3/screenshot-1.png` (or jpg, jpeg, gif)
-2. This is the second screen shot
+None currently.
 
 == Changelog ==
 
